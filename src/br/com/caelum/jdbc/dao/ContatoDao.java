@@ -18,7 +18,7 @@ public class ContatoDao {
 	
 	public void adiciona(Contato contato) {
 		String sql = "insert into contatos" + 
-				"(nome,email,endereco,dataNascimento" +
+				"(nome,email,endereco,dataNascimento)" +
 				"values (?,?,?,?)";
 		try {
 			//preparedStatement para inserção
